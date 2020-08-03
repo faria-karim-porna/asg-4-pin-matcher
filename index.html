@@ -84,7 +84,7 @@
         for (let i = 0; i < numberBtns.length; i++) {
             const numberButton = numberBtns[i];
             numberButton.addEventListener("click", function(event){
-                submitInputText.value = submitInputText.value+numberButton.innerHTML;
+                submitInputText.value = submitInputText.value+numberButton.innerText;
             });  
         }
 
